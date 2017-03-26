@@ -33,7 +33,10 @@ which is only allowed to use the "SELECT" SQL statement on the weather table.
 # Syntax
 
 Syntax for metar2300():
+
+```php
 $metar = metar2300 (int $timestamp, mixed $report_modifier);
+```
 
 # To do
 
