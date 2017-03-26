@@ -39,12 +39,13 @@ $metar = metar2300 (int $timestamp, mixed $report_modifier);
 
 This is the first release. There is still lots of work to do. For myself I
 would like to add the following features:
+
 - implement variable wind direction (examples: 180V240, VRB03KT)
 - convert rain_1h field to something like -RA, RA, +RA
 
 # References
 
-[1] http://www.ofcm.noaa.gov/fmh-1/fmh1.htm
-[2] http://open2300.sourceforge.net/
-[3] http://www.lavrsen.dk/twiki/bin/view/Open2300/WebHome
+- [1] http://www.ofcm.noaa.gov/fmh-1/fmh1.htm
+- [2] http://open2300.sourceforge.net/
+- [3] http://www.lavrsen.dk/twiki/bin/view/Open2300/WebHome
 
