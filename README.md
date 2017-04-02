@@ -1,18 +1,17 @@
 # metar2300
 
-PHP code which reads your WS2300 weather station and converts into a nice METAR string.
+PHP code which reads your WS2300 weather station and converts into a nice
+METAR string.
 
 # Description
 
-This PHP library implements the METAR format described in the "Federal
-Meteorological Handbook No. 1 - Surface Weather Observations and Reports"
-(FCM-H1-2005) [1] for weather stations that are supported by the Open2300
-software [2,3]. Since the ws2300 series weather stations only support a
-subset of the parameters used in a METAR, only these parts of the FCM-H1-2005
-are implemented. Other parameters are not supported.
+This PHP library implements the METAR [1] format for weather stations that
+are supported by the Open2300 software [2]. Since the ws2300 series weather
+stations only support a subset of the parameters used in METAR, only these
+parts are implemented.
 
 It basically provides functions to create a METAR based on data stored in a
-MySQL table which is maintained by mysql2300, which is part of Open2300. The
+MySQL table which is filled by mysql2300, which is part of Open2300. The 
 idea is that you have a weather station that is connected to a linux computer
 running mysql2300 every minute. The data is stored in a table, which is
 parsed by this library to create the requested METAR.
@@ -48,7 +47,6 @@ would like to add the following features:
 
 # References
 
-- [1] http://www.ofcm.noaa.gov/fmh-1/fmh1.htm
-- [2] http://open2300.sourceforge.net/
-- [3] http://www.lavrsen.dk/twiki/bin/view/Open2300/WebHome
+- [1] https://en.wikipedia.org/wiki/METAR
+- [2] http://lavrsen.dk/foswiki/bin/view/Open2300/
 
